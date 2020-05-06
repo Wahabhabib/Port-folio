@@ -1,0 +1,85 @@
+@media only screen and (min-width: 1025px) {
+  body {
+    background-image: url("images/wood.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white !important;
+    width: 100vw;
+  }
+  .head {
+    position: relative;
+    width: 100vh;
+    top: -165px;
+    left: -300px;
+    transform: rotate(270deg);
+  }
+  .head1 {
+    position: relative;
+    width: 100vh;
+    top: -340px;
+    left: -230px;
+    transform: rotate(270deg);
+  }
+  .head2 {
+    position: relative;
+    width: 100vh;
+    top: 290px;
+    left: 960px;
+    padding-top: 60px;
+    transform: rotate(270deg);
+  }
+  .itemgrp {
+    position: absolute;
+    left: 130px;
+  }
+  .color {
+    color: rgb(172, 168, 168);
+    font-weight: bold;
+    margin-right: 20px;
+    text-transform: capitalize;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-image: url("images/wood.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white !important;
+  }
+  .head {
+    position: relative;
+    width: 100vh;
+    top: -400px;
+    left: -250px;
+    transform: rotate(270deg);
+  }
+  .head1 {
+    position: relative;
+    top: -50px;
+    left: 50px;
+  }
+  .color {
+    text-transform: capitalize;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url("images/wood.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white !important;
+    min-height: 578px;
+  }
+  .color {
+    text-transform: capitalize;
+  }
+  .display-1 {
+    text-align: center;
+    font-size: 4rem;
+    line-height: 0.9;
+  }
+}
